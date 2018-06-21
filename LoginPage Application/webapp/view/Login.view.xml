@@ -1,0 +1,20 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="DCTM.controller.Login"
+	displayBlock="true">
+	<App id="app">
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<VBox width="100%" direction="Column" id="__vbox0" alignItems="Center" fitContainer="true" alignContent="Center" justifyContent="Center"
+						backgroundDesign="Solid">
+						<items>
+							<Label text="Use Your Credentials" width="100%" id="__label0"/>
+							<Input width="100%" id="username" placeholder="User Name" textAlign="Left" required="true" textDirection="LTR"/>
+							<Input width="100%" id="password" type="Password" placeholder="Password" required="true" textAlign="Left"/>
+							<Button text="Login" width="100px" id="__button0" icon="sap-icon://person-placeholder" type="Emphasized" press="onLogin"/>
+						</items>
+					</VBox>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

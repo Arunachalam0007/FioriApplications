@@ -1,0 +1,32 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml"
+	controllerName="DCTM.controller.Task">
+	<App id="app">
+		<pages>
+			<Page title="Inbox" showNavButton="true" navButtonPress="onNavBack">
+				<content>
+					<HBox width="100%" id="__hbox1" alignContent="Inherit" height="80%" alignItems="Baseline" displayInline="true">
+						<FlexBox width="100%" id="__box0" direction="Column">
+							<items>
+								<List id="myList12" mode="SingleSelectMaster" updateFinished="onUpdateFinish" selectionChange="onPress" items="{ path : 'queue>/Queues' }">
+									<StandardListItem title="{queue>Name}" description="{queue>request_type}" type="Navigation"/>
+								</List>
+							</items>
+						</FlexBox>
+						<FlexBox width="100%" id="__box1" direction="Column">
+							<items>
+								<Toolbar id="TB1">
+									<Title id="Title1" text="Details" level="H4" titleStyle="H4"/>
+									<ToolbarSpacer/>
+									<Button text="Approve" type="Accept"/>
+									<Button text="Reject" type="Reject"/>
+								</Toolbar>
+								<sap.ui.layout.form:SimpleForm xmlns:sap.ui.layout.form="sap.ui.layout.form" editable="true" layout="ResponsiveGridLayout" id="simpleform"/>
+							</items>
+						</FlexBox>
+						<items/>
+					</HBox>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

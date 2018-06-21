@@ -1,0 +1,114 @@
+{
+	"Queues": [{
+			"ObjectID": "1b00606881ca20d7",
+			"Name": "LV-18-00000351",
+			"request_type": "Sick Leave",
+
+			"deatils": [{
+				"label": "Request No",
+				"value": "LV-18-00000351a",
+				"is_editable": false
+
+			}, {
+				"label": "Emp Id",
+				"value": "00000314",
+				"is_editable": false
+			}, {
+				"label": "Emp Name",
+				"value": "Manishanand Swami",
+				"is_editable": false
+			}, {
+				"label": "Start Date",
+				"value": "20-02-2018",
+				"is_editable": true
+			}, {
+				"label": "End Date",
+				"value": "30-03-2018",
+				"is_editable": true
+			}]
+
+		}, {
+			"ObjectID": "1b00606881c9c35e",
+			"Name": "IM-18-00000351",
+			"request_type": "Immigration",
+
+			"deatils": [{
+				"label": "Request No",
+				"value": "IM-18-00000351b",
+				"is_editable": false
+			}, {
+				"label": "Emp Id",
+				"value": "00000314",
+				"is_editable": false
+			}, {
+				"label": "Emp Name",
+				"value": "Manishanand Swami",
+				"is_editable": false
+			}, {
+				"label": "Departure  Date",
+				"value": "20-02-2018",
+				"is_editable": true
+			}]
+
+		},
+
+		{
+			"ObjectID": "1b00606881ca20d7",
+			"Name": "LV-18-00000351",
+			"request_type": "Annual Leave",
+
+			"deatils": [{
+				"label": "Request No",
+				"value": "LV-18-00000351",
+				"is_editable": false
+			}, {
+				"label": "Emp Id",
+				"value": "00000314",
+				"is_editable": false
+			}, {
+				"label": "Emp Name",
+				"value": "Manishanand Swami",
+				"is_editable": false
+			}, {
+				"label": "Start Date",
+				"value": "20-02-2018",
+				"is_editable": true
+			}, {
+				"label": "End Date",
+				"value": "30-03-2018",
+				"is_editable": true
+			}]
+
+		},
+
+		{
+			"ObjectID": "1b00606881ca20d7",
+			"Name": "MT-18-00000351-May",
+			"request_type": "OverTime",
+
+			"deatils": [{
+				"label": "Request No",
+				"value": "LV-18-00000351",
+				"is_editable": false
+			}, {
+				"label": "Emp Id",
+				"value": "00000314",
+				"is_editable": false
+
+			}, {
+				"label": "Emp Name",
+				"value": "Manishanand Swami",
+				"is_editable": false
+
+			}, {
+				"label": "Total hours",
+				"value": "60",
+				"is_editable": true
+
+			}]
+
+		}
+
+	]
+
+}
